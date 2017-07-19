@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/authui_inputTextColor">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="@color/authui_inputTextColor"
+        android:animateLayoutChanges="false"
+        android:fadingEdge="horizontal|vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:text="In This Section, the player can follow his Statistics moment by moment"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/coach_inf"
+            android:layout_weight="0.75"
+            android:textSize="24sp"
+            android:lineSpacingExtra="8sp"
+            android:textColor="@color/authui_inputTextColorDark"
+            android:textStyle="normal|bold|italic"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:fontFamily="casual" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/arrow_icon"
+            android:id="@+id/player_button"
+            android:layout_height="70dp"
+            android:scaleType="fitEnd"
+            android:background="@color/authui_inputTextColor"
+            android:layout_weight="0.25"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

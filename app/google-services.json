@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "67056917549",
+    "firebase_url": "https://rowingmate-82a19.firebaseio.com",
+    "project_id": "rowingmate-82a19",
+    "storage_bucket": "rowingmate-82a19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67056917549:android:315b9fe3bce93a51",
+        "android_client_info": {
+          "package_name": "info.android.rowing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67056917549-7h276lthr4e692rsq5o809e2gvei6e9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.android.rowing",
+            "certificate_hash": "465f40ecf06a848224e8f9e4c150f15cb7f9779e"
+          }
+        },
+        {
+          "client_id": "67056917549-8itbal71jgtng47fp12kdaplqejlkj79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAmxYn3lMskgYrELXFOUdw8gV0NyH_MRc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67056917549-8itbal71jgtng47fp12kdaplqejlkj79.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

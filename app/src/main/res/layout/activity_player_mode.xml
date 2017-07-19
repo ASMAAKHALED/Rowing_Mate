@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp"
+    android:background="@color/common_google_signin_btn_text_light_default">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light">
+            <TextView
+                android:text="00.00 m/s"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/pace"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="24sp" />
+            <TextView
+                android:text="pace"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_pace"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light">
+
+            <TextView
+                android:text="0000.0 m"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/distance"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="24sp" />
+            <TextView
+                android:text="Distance"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_distance"
+                android:textStyle="normal|bold"
+                android:textAllCaps="true"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:background="@android:color/background_light">
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="0"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/angle"
+                android:textColor="#000066"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+            <ImageView
+                android:layout_marginLeft="6dp"
+                android:id="@+id/pic"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:text="angle"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_here"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light">
+            <TextView
+                android:text="00:00:00"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/time"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="24sp" />
+
+            <TextView
+                android:text="Time"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_time"
+                android:textStyle="normal|bold"
+                android:textAllCaps="true"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="3dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/background_light">
+            <TextView
+                android:text="000 str/min"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/stroke_rate"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="24sp" />
+            <TextView
+                android:text="Strokerate"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_stroke_rate"
+                android:textStyle="normal|bold"
+                android:textAllCaps="true"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.jjoe64.graphview.GraphView
+        android:text="acceleration"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/acceleration_graph"
+        android:layout_weight="1"
+        android:background="@android:color/background_light" />
+
+</LinearLayout>

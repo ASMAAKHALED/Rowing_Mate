@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:background="@color/colorAccent"
+    android:layout_marginLeft="11dp">
+                   <TextView
+            android:text="*Select Your Club Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textSize="14sp"
+            android:textColor="@color/authui_inputTextColorDark"
+            android:textAllCaps="false"
+            android:layout_marginTop="11dp"
+            android:textStyle="normal|bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+                       android:layout_marginLeft="5dp" />
+
+                   <Spinner
+            android:layout_width="match_parent"
+            android:id="@+id/club_spinner"
+            android:background="@color/colorPrimary"
+            android:layout_height="40dp"
+            android:popupBackground="@color/colorPrimaryDark"
+            android:dropDownSelector="@color/colorPrimaryDark"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+                       android:layout_marginLeft="8dp"
+                       android:layout_marginRight="8dp" />
+
+                   <TextView
+            android:text="*Select Your Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/club_spinner"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:id="@+id/textView2"
+            android:textSize="14sp"
+            android:textColor="@color/authui_inputTextColorDark"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="10dp"
+                       android:layout_marginLeft="5dp" />
+
+                   <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+                       android:id="@+id/coach_spinner"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/colorPrimary"
+            android:alwaysDrawnWithCache="false"
+            android:popupBackground="@color/colorPrimaryDark"
+            android:dropDownSelector="@color/colorPrimaryDark"
+                       android:layout_marginLeft="8dp"
+                       android:layout_marginRight="8dp" />
+
+
+                   <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/coach_icon"
+            android:layout_below="@+id/coach_spinner"
+            android:layout_marginBottom="11dp"
+            android:layout_marginRight="11dp">
+
+            <Button
+                android:text="START"
+                android:layout_height="108dp"
+                android:id="@+id/start_button_coach"
+                android:background="@drawable/bg_circle"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@color/authui_inputTextColor"
+                android:layout_width="108dp"
+                android:gravity="center"
+                android:layout_gravity="bottom|right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:onClick="startCoachMode" />
+        </RelativeLayout>
+
+</RelativeLayout>
+

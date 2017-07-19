@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/start_session"
+        android:orderInCategory="100"
+        android:title="@string/start_new_session"
+        android:icon="@android:drawable/ic_media_play"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/stop_session"
+        android:orderInCategory="101"
+        android:title="@string/stop_new_session"
+        android:icon="@android:drawable/ic_media_pause"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/reset_session"
+        android:orderInCategory="102"
+        android:title="@string/reset_new_session"
+        android:icon="@android:drawable/ic_menu_rotate"
+        app:showAsAction="always" />
+
+</menu>

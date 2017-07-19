@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="100dp"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:text="ــــــــ"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:id="@+id/player_Name"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/authui_inputTextColorDark"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" />
+
+    <TextView
+        android:text="00:00:00"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:id="@+id/time"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/authui_inputTextColorDark"
+        android:background="@color/colorAccent"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp" />
+
+    <TextView
+        android:text="00.00 m/s"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginBottom="2dp"
+        android:id="@+id/speed"
+        android:textColor="@color/authui_inputTextColorDark"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" />
+
+    <TextView
+        android:text="0000.0 m"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:id="@+id/distance"
+        android:textColor="@color/authui_inputTextColorDark"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" />
+
+    <TextView
+        android:text="000 str/min"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginBottom="2dp"
+        android:id="@+id/stroke_Rate"
+        android:textColor="@color/authui_inputTextColorDark"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" />
+
+    <TextView
+        android:text="0 "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:id="@+id/angle"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/authui_inputTextColorDark"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" />
+</LinearLayout>
